@@ -21,7 +21,7 @@ public class UseForkJoin extends RecursiveTask<Integer> {
     @Override
     protected Integer compute() {
 
-        int sum = 1;
+        int sum = 0;
 
         boolean isCompute = (end - start) <= THRESHOLD;
 
